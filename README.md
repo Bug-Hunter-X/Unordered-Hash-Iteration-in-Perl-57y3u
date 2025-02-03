@@ -1,0 +1,1 @@
+This example demonstrates a common issue in Perl: the unpredictable order of hash key iteration.  The `foreach` loop iterates through the keys of a hash, but the order is not guaranteed to be consistent across different Perl versions or even different runs of the same script.  This can lead to unexpected results if the order of processing is crucial.
